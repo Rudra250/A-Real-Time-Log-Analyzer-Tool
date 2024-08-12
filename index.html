@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Log Analyzer Research</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            text-align: justify;
+            background-color: #fff;
+        }
+        .container {
+            margin-top: 20px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .sub-title {
+            font-size: 1.2rem;
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+        .card {
+            margin-bottom: 20px;
+            border: none;
+            box-shadow: none;
+        }
+        .card-img{
+            width: 80%;
+            margin: 0 auto;
+        }
+        .card-img img{
+            width: 100%;
+        }
+        .card-header {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.9rem;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header Section -->
+        <h1>Real-Time Log Analyzer Implementation</h1>
+        <p class="sub-title">By Prajapati Rudra Bharatkumar</p>
+        <p class="sub-title">
+            <a href="https://www.linkedin.com/in/rudra-prajapati-b34694274/" target="_blank">LinkedIn</a>
+        </p>
+
+        <!-- Content Section -->
+        <div class="card">
+            <div class="card-header">
+                Abstract
+            </div>
+            <div class="card-body">
+                <p>This paper presents the research about the implementation of a Log Analyzer tool that provides live monitoring of system logs on a PC and displays the captured logs on a mobile application. The tool collects various types of logs from the system and provides analyzed data for the mobile application in real-time, securely transmitted to the mobile application. This tool aims to enhance cybersecurity monitoring and provide updates on potential threats.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                Introduction
+            </div>
+            <div class="card-body">
+                <p>Real-time log analysis is essential for identifying system threats by monitoring them. Traditional tools often lack real-time update capabilities. This research paper introduces a log analyzer that processes logs in real-time and displays them on a mobile application, focusing on collecting logs such as application usage, system info, hardware resource usage, network activity, user activity, and file system changes.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                Objectives
+            </div>
+            <div class="card-body">
+                <ul>
+                    <li>Developing a real-time log analyzer that provides system insights.</li>
+                    <li>Live monitoring of the system through a mobile application.</li>
+                    <li>Evaluating real-time analyzed data and providing updates on threats.</li>
+                    <li>Providing an easily accessible mechanism to monitor the system.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                System Architecture
+            </div>
+            <div class="card-img">
+                <img src="d1.png" alt="">
+            </div>
+            <div class="card-body">
+                <p>The researched tool is designed with a modular approach and is divided into three main components:</p>
+                <ul>
+                    <li><strong>Log Collection Module:</strong> Collects logs like application usage, system info, hardware resource usage, network activity, user activity, and file system changes.</li>
+                    <li><strong>Data Processing Engine:</strong> Processes logs in real-time, categorizing them and filtering out irrelevant data.</li>
+                    <li><strong>Mobile Application Interface:</strong> Transmits logs securely to a mobile app, providing a user-friendly interface for monitoring and analysis.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                Implementation
+            </div>
+            <div class="card-body">
+                <p>The proposed tool is implemented using Python for log collection, data processing, and analysis. The mobile application is developed with Flutter for cross-platform compatibility. Security measures like end-to-end encryption and user authentication are included to ensure secure data transmission and access.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                Security and Ethical Considerations
+            </div>
+            <div class="card-body">
+                <p>The tool's design considers security and ethical factors, especially with keylogging and network activity monitoring. User consent is required, and network logs are anonymized to protect privacy. Robust encryption is employed to protect data in transit and at rest.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                Implementation Considerations
+            </div>
+            <div class="card-body">
+                <ul>
+                    <li><strong>Hardware Acceleration:</strong> Reduces computational overhead.</li>
+                    <li><strong>Real-time Processing:</strong> Manages real-time data processing between the database, mobile application, and system.</li>
+                    <li><strong>User Consent:</strong> Requires user permissions for privacy.</li>
+                    <li><strong>Authentication:</strong> Ensures security measures for user privacy.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                Future Upgradation
+            </div>
+            <div class="card-body">
+                <p>Future upgrades may include real-time data analysis, pattern recognition, and a more user-friendly mobile app interface to enhance system understanding and threat detection.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                Conclusion
+            </div>
+            <div class="card-body">
+                <p>The research demonstrates the feasibility and effectiveness of a real-time log analyzer tool with mobile integration. By providing continuous monitoring and immediate access to critical log data, the tool enhances the ability of system administrators and security professionals to detect and respond to potential security threats.</p>
+            </div>
+        </div>
+
+        <!-- Footer Section -->
+        <div class="footer">
+            <p>&copy; 2024 Prajapati Rudra Bharatkumar</p>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+</body>
+</html>
